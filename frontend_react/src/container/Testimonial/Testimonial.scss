@@ -5,6 +5,7 @@
   }
   
   .app__testimonial-item {
+    margin-top: 3rem;
     width: 60%;
     min-height: 320px;
     background-color: var(--white-color);
@@ -120,7 +121,11 @@
       }
     }
   }
-  
+  .head-text{
+
+    margin-top: 9rem;
+  }
+
   .app__testimonial-brands {
     width: 80%;
     flex-wrap: wrap;
