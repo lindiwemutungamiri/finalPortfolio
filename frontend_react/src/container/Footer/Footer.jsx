@@ -4,7 +4,6 @@ import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
 import './Footer.scss';
-import { SocialMedia } from '../../components';
 
 const Footer = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -38,7 +37,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text" ><span>Contact</span></h2>
+      <h2 className="head-text">Take a coffee & chat with me</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
@@ -68,16 +67,12 @@ const Footer = () => {
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
-         
         </div>
-        
-        
       ) : (
         <div>
           <h3 className="head-text">
             Thank you for getting in touch!
           </h3>
-          <SocialMedia/>
         </div>
       )}
     </>
