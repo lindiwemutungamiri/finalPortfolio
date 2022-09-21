@@ -30,6 +30,8 @@ const Testimonial = () => {
 
   return (
     <>
+          <h2 className="head-text"><span> Testimonials</span></h2>
+
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
@@ -54,6 +56,9 @@ const Testimonial = () => {
           </div>
         </>
       )}
+
+<h2 className="head-text"><span>Affiliations</span> And<span> Brands</span></h2>
+
 
       <div className="app__testimonial-brands app__flex">
         {brands.map((brand) => (
